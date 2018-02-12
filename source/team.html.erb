@@ -1,0 +1,17 @@
+<div id="team">
+  <div class="about-content">
+    <h1>This page was built with care by</h1>
+      <ul class="list-inline text-center">
+        <% ["carlykp", "joemonteiro" ].each do |gh_username| %>
+          <li>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+            <h4><%= gh_username.capitalize %></h4>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+
+
+
